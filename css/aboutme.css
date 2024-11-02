@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #444444, #000000); /* Gradient */
+    color: white;
+    text-align: center;
+}
+
+.about-me {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.1); /* Transparent background */
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Shadow */
+}
+
+.about-title {
+    color: #FE0000;
+    text-shadow: 0 0 10px rgba(255, 0, 0, 0.8); /* Text shadow */
+    margin-bottom: 20px; 
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #FFCC00;
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline;
+}
