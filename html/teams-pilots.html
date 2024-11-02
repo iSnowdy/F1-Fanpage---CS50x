@@ -30,13 +30,13 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="lore.html">History</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="true">
+                            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="true">
                                 Teams and Pilots
                             </a>
                             
@@ -53,10 +53,17 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="calendario.html">Race Schedule</a>
+                            <a class="nav-link" href="schedule.html">Race Schedule</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="results.html">Results</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="true">
+                                Results
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="results.html">Race Results</a></li>
+                                <li><a class="dropdown-item" href="pilotstandings.html">Pilots Standings</a></li>
+                                <li><a class="dropdown-item" href="constrstandings.html">Constructors Standings</a></li>
+                            </ul>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="contact.html">Contact</a>
@@ -65,10 +72,12 @@
                             <a class="nav-link" href="aboutme.html">About me</a>
                         </li>
                     </ul>
+                    
                     <form action="https://www.google.com/search" class="d-flex" role="search" method="get" target="_blank">
                         <input class="form-control me-2" type="text" name="q" placeholder="Google Search" aria-label="Search">
                         <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
+                    </form>                    
+                    
                 </div>
             </div>
         </nav>
@@ -246,7 +255,7 @@
         </section>
 
         <a href="#top" class="scroll-to-top">
-            <img src="/images/up-arrow-svgrepo-com.svg" alt="Go Up Arrow" />
+            <img src="/images/up-arrow-svgrepo-com.svg" alt="Go Up Arrow">
         </a>
     </main>
     

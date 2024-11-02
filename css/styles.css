@@ -17,6 +17,15 @@ body {
     font-family: Arial, sans-serif;
 }
 
+.logo-image {
+    width: 100em !important;
+    height: auto !important;
+}
+
+.navbar-toggler {
+    background-color: yellow;
+}
+
 .logo-text {
     color: #FE0000;
     font-weight: bold;
